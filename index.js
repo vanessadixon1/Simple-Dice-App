@@ -12,9 +12,9 @@ player1DiceImg.setAttribute('src', './images/dice' + randomNumber1 + '.png');
 player2DiceImg.setAttribute('src', './images/dice' + randomNumber2 + '.png');
 
 if(randomNumber1 < randomNumber2) {
-    heading.textContent = "Player 2 Won!"
+    heading.textContent = "🚩Player 2 Won!"
 } else if(randomNumber1 > randomNumber2) {
-    heading.textContent = "Player 1 Won!"
+    heading.textContent = "Player 1 Won! 🚩"
 } else {
     heading.textContent = "Draw!"
 }
