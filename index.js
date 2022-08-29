@@ -18,23 +18,3 @@ if(randomNumber1 < randomNumber2) {
 } else {
     heading.textContent = "Draw!"
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// for(var i = 0; i < player1DiceImg.length; i++) {
-//     player1DiceImg[i].setAttribute('src',"./images/dice" +randomNumber1 + ".png")
-// }
