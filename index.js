@@ -8,10 +8,6 @@ let randomNumber2 = Math.floor(Math.random() * 6 + 1);
 
 let heading = document.querySelector('.container h1');
 
-player1DiceImg.setAttribute('src', './images/dice6.png');
-
-player2DiceImg.setAttribute('src', './images/dice6.png');
-
 player1DiceImg.setAttribute('src', './images/dice' + randomNumber1 + '.png');
 player2DiceImg.setAttribute('src', './images/dice' + randomNumber2 + '.png');
 
